@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://www.consumidorglobal.com/uploads/s1/24/04/91/cruceroi.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo {
+    background-color: rgba(119, 136, 153, 0.5);
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilos para la barra de navegacion */
+header {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    position: sticky;
+    top: 0px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;   
+}
+
+.link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.link.activo{
+    background-color: #04AA6D;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilo al footer*/
+footer {
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icono {
+    width: 48px;
+    height: 48px;
+}
+
+footer>h3 {
+    color: #f7c600;
+    margin: 10px 0;
+}
